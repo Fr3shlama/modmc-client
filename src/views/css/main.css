@@ -1,0 +1,24 @@
+.modpack {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #000; 
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.modpack img {
+    width: 100px; 
+    height: 100px;
+}
+.modpack-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.changelog {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
